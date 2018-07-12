@@ -7,24 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		30ACF67E20F7018800F66225 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30ACF67D20F7018800F66225 /* AppDelegate.swift */; };
-		30ACF68020F7018800F66225 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30ACF67F20F7018800F66225 /* ViewController.swift */; };
-		30ACF68220F7018900F66225 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30ACF68120F7018900F66225 /* Assets.xcassets */; };
-		30ACF68520F7018900F66225 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30ACF68320F7018900F66225 /* Main.storyboard */; };
+		30ACF69B20F7292500F66225 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 30ACF69A20F7292500F66225 /* AppDelegate.m */; };
+		30ACF69E20F7292500F66225 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30ACF69D20F7292500F66225 /* ViewController.m */; };
+		30ACF6A020F7292700F66225 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30ACF69F20F7292700F66225 /* Assets.xcassets */; };
+		30ACF6A320F7292700F66225 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30ACF6A120F7292700F66225 /* Main.storyboard */; };
+		30ACF6A620F7292700F66225 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 30ACF6A520F7292700F66225 /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		30ACF67A20F7018800F66225 /* SampleBufferLayerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleBufferLayerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		30ACF67D20F7018800F66225 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		30ACF67F20F7018800F66225 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		30ACF68120F7018900F66225 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		30ACF68420F7018900F66225 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		30ACF68620F7018900F66225 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		30ACF68720F7018900F66225 /* SampleBufferLayerDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SampleBufferLayerDemo.entitlements; sourceTree = "<group>"; };
+		30ACF69620F7292500F66225 /* SampleBufferLayerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleBufferLayerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		30ACF69920F7292500F66225 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		30ACF69A20F7292500F66225 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		30ACF69C20F7292500F66225 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		30ACF69D20F7292500F66225 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		30ACF69F20F7292700F66225 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		30ACF6A220F7292700F66225 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		30ACF6A420F7292700F66225 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30ACF6A520F7292700F66225 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		30ACF6A720F7292700F66225 /* SampleBufferLayerDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SampleBufferLayerDemo.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		30ACF67720F7018800F66225 /* Frameworks */ = {
+		30ACF69320F7292500F66225 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -34,31 +38,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		30ACF67120F7018800F66225 = {
+		30ACF68D20F7292500F66225 = {
 			isa = PBXGroup;
 			children = (
-				30ACF67C20F7018800F66225 /* SampleBufferLayerDemo */,
-				30ACF67B20F7018800F66225 /* Products */,
+				30ACF69820F7292500F66225 /* SampleBufferLayerDemo */,
+				30ACF69720F7292500F66225 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		30ACF67B20F7018800F66225 /* Products */ = {
+		30ACF69720F7292500F66225 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				30ACF67A20F7018800F66225 /* SampleBufferLayerDemo.app */,
+				30ACF69620F7292500F66225 /* SampleBufferLayerDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		30ACF67C20F7018800F66225 /* SampleBufferLayerDemo */ = {
+		30ACF69820F7292500F66225 /* SampleBufferLayerDemo */ = {
 			isa = PBXGroup;
 			children = (
-				30ACF67D20F7018800F66225 /* AppDelegate.swift */,
-				30ACF67F20F7018800F66225 /* ViewController.swift */,
-				30ACF68120F7018900F66225 /* Assets.xcassets */,
-				30ACF68320F7018900F66225 /* Main.storyboard */,
-				30ACF68620F7018900F66225 /* Info.plist */,
-				30ACF68720F7018900F66225 /* SampleBufferLayerDemo.entitlements */,
+				30ACF69920F7292500F66225 /* AppDelegate.h */,
+				30ACF69A20F7292500F66225 /* AppDelegate.m */,
+				30ACF69C20F7292500F66225 /* ViewController.h */,
+				30ACF69D20F7292500F66225 /* ViewController.m */,
+				30ACF69F20F7292700F66225 /* Assets.xcassets */,
+				30ACF6A120F7292700F66225 /* Main.storyboard */,
+				30ACF6A420F7292700F66225 /* Info.plist */,
+				30ACF6A520F7292700F66225 /* main.m */,
+				30ACF6A720F7292700F66225 /* SampleBufferLayerDemo.entitlements */,
 			);
 			path = SampleBufferLayerDemo;
 			sourceTree = "<group>";
@@ -66,13 +73,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		30ACF67920F7018800F66225 /* SampleBufferLayerDemo */ = {
+		30ACF69520F7292500F66225 /* SampleBufferLayerDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 30ACF68A20F7018900F66225 /* Build configuration list for PBXNativeTarget "SampleBufferLayerDemo" */;
+			buildConfigurationList = 30ACF6AA20F7292700F66225 /* Build configuration list for PBXNativeTarget "SampleBufferLayerDemo" */;
 			buildPhases = (
-				30ACF67620F7018800F66225 /* Sources */,
-				30ACF67720F7018800F66225 /* Frameworks */,
-				30ACF67820F7018800F66225 /* Resources */,
+				30ACF69220F7292500F66225 /* Sources */,
+				30ACF69320F7292500F66225 /* Frameworks */,
+				30ACF69420F7292500F66225 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -80,25 +87,24 @@
 			);
 			name = SampleBufferLayerDemo;
 			productName = SampleBufferLayerDemo;
-			productReference = 30ACF67A20F7018800F66225 /* SampleBufferLayerDemo.app */;
+			productReference = 30ACF69620F7292500F66225 /* SampleBufferLayerDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		30ACF67220F7018800F66225 /* Project object */ = {
+		30ACF68E20F7292500F66225 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0940;
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = Hays;
 				TargetAttributes = {
-					30ACF67920F7018800F66225 = {
+					30ACF69520F7292500F66225 = {
 						CreatedOnToolsVersion = 9.4.1;
 					};
 				};
 			};
-			buildConfigurationList = 30ACF67520F7018800F66225 /* Build configuration list for PBXProject "SampleBufferLayerDemo" */;
+			buildConfigurationList = 30ACF69120F7292500F66225 /* Build configuration list for PBXProject "SampleBufferLayerDemo" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -106,45 +112,46 @@
 				en,
 				Base,
 			);
-			mainGroup = 30ACF67120F7018800F66225;
-			productRefGroup = 30ACF67B20F7018800F66225 /* Products */;
+			mainGroup = 30ACF68D20F7292500F66225;
+			productRefGroup = 30ACF69720F7292500F66225 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				30ACF67920F7018800F66225 /* SampleBufferLayerDemo */,
+				30ACF69520F7292500F66225 /* SampleBufferLayerDemo */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		30ACF67820F7018800F66225 /* Resources */ = {
+		30ACF69420F7292500F66225 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30ACF68220F7018900F66225 /* Assets.xcassets in Resources */,
-				30ACF68520F7018900F66225 /* Main.storyboard in Resources */,
+				30ACF6A020F7292700F66225 /* Assets.xcassets in Resources */,
+				30ACF6A320F7292700F66225 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		30ACF67620F7018800F66225 /* Sources */ = {
+		30ACF69220F7292500F66225 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30ACF68020F7018800F66225 /* ViewController.swift in Sources */,
-				30ACF67E20F7018800F66225 /* AppDelegate.swift in Sources */,
+				30ACF69E20F7292500F66225 /* ViewController.m in Sources */,
+				30ACF6A620F7292700F66225 /* main.m in Sources */,
+				30ACF69B20F7292500F66225 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		30ACF68320F7018900F66225 /* Main.storyboard */ = {
+		30ACF6A120F7292700F66225 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				30ACF68420F7018900F66225 /* Base */,
+				30ACF6A220F7292700F66225 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -152,7 +159,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		30ACF68820F7018900F66225 /* Debug */ = {
+		30ACF6A820F7292700F66225 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -207,12 +214,10 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		30ACF68920F7018900F66225 /* Release */ = {
+		30ACF6A920F7292700F66225 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -260,12 +265,10 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
 			};
 			name = Release;
 		};
-		30ACF68B20F7018900F66225 /* Debug */ = {
+		30ACF6AB20F7292700F66225 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -278,11 +281,10 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.hays.SampleBufferLayerDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
-		30ACF68C20F7018900F66225 /* Release */ = {
+		30ACF6AC20F7292700F66225 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -295,32 +297,31 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.hays.SampleBufferLayerDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		30ACF67520F7018800F66225 /* Build configuration list for PBXProject "SampleBufferLayerDemo" */ = {
+		30ACF69120F7292500F66225 /* Build configuration list for PBXProject "SampleBufferLayerDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				30ACF68820F7018900F66225 /* Debug */,
-				30ACF68920F7018900F66225 /* Release */,
+				30ACF6A820F7292700F66225 /* Debug */,
+				30ACF6A920F7292700F66225 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		30ACF68A20F7018900F66225 /* Build configuration list for PBXNativeTarget "SampleBufferLayerDemo" */ = {
+		30ACF6AA20F7292700F66225 /* Build configuration list for PBXNativeTarget "SampleBufferLayerDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				30ACF68B20F7018900F66225 /* Debug */,
-				30ACF68C20F7018900F66225 /* Release */,
+				30ACF6AB20F7292700F66225 /* Debug */,
+				30ACF6AC20F7292700F66225 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 30ACF67220F7018800F66225 /* Project object */;
+	rootObject = 30ACF68E20F7292500F66225 /* Project object */;
 }
