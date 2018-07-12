@@ -7,13 +7,19 @@
 //
 
 #import "ViewController.h"
+#import "VideoPlayer.h"
 
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [[VideoPlayer sharedManager] startCaputureSession];
+    [[VideoPlayer sharedManager] setView:self.view];
+}
 
-    // Do any additional setup after loading the view.
+- (void)viewDidAppear
+{
+    [super viewDidAppear];
 }
 
 

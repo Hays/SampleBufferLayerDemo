@@ -12,6 +12,7 @@
 		30ACF6A020F7292700F66225 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30ACF69F20F7292700F66225 /* Assets.xcassets */; };
 		30ACF6A320F7292700F66225 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30ACF6A120F7292700F66225 /* Main.storyboard */; };
 		30ACF6A620F7292700F66225 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 30ACF6A520F7292700F66225 /* main.m */; };
+		30ACF6AF20F72EB400F66225 /* VideoPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 30ACF6AE20F72EB400F66225 /* VideoPlayer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,8 @@
 		30ACF6A420F7292700F66225 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		30ACF6A520F7292700F66225 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		30ACF6A720F7292700F66225 /* SampleBufferLayerDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SampleBufferLayerDemo.entitlements; sourceTree = "<group>"; };
+		30ACF6AD20F72EB400F66225 /* VideoPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoPlayer.h; sourceTree = "<group>"; };
+		30ACF6AE20F72EB400F66225 /* VideoPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoPlayer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +60,8 @@
 		30ACF69820F7292500F66225 /* SampleBufferLayerDemo */ = {
 			isa = PBXGroup;
 			children = (
+				30ACF6AD20F72EB400F66225 /* VideoPlayer.h */,
+				30ACF6AE20F72EB400F66225 /* VideoPlayer.m */,
 				30ACF69920F7292500F66225 /* AppDelegate.h */,
 				30ACF69A20F7292500F66225 /* AppDelegate.m */,
 				30ACF69C20F7292500F66225 /* ViewController.h */,
@@ -139,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30ACF6AF20F72EB400F66225 /* VideoPlayer.m in Sources */,
 				30ACF69E20F7292500F66225 /* ViewController.m in Sources */,
 				30ACF6A620F7292700F66225 /* main.m in Sources */,
 				30ACF69B20F7292500F66225 /* AppDelegate.m in Sources */,
